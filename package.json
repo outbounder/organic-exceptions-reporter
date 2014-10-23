@@ -1,6 +1,6 @@
 {
   "name": "organic-exceptions-reporter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple organelle for capturing uncaughtExceptions and for sending them via email",
   "main": "index.js",
   "scripts": {
