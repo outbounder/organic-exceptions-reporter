@@ -60,7 +60,7 @@ module.exports = function ExceptionsReporter(plasma, dna){
   var sendUncaughException = function(err){
     // always increase counter/id of uncaughtExceptions
     id += 1;
-    console.info(err)
+
     // if error has been captured and not 'cooled down' from last error do not send it
     if(errorCaptured) return;
     errorCaptured = true;
